@@ -148,7 +148,6 @@ footer {
   text-align: center; 
   padding: 0; 
   width: 100%; 
-  position: absolute; 
   bottom: 0; 
   font-size: 1rem; 
   backdrop-filter: blur(50px); 
@@ -225,7 +224,6 @@ footer {
     text-align: center; 
     padding: 0; 
     width: 100%; 
-    position: absolute; 
     bottom: 0; 
     font-size: 1rem; 
     backdrop-filter: blur(50px); 
