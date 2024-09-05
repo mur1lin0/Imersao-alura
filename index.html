@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Imersão Dev</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav container">
+        <h1>Mobs Minecraft</h1>
+        <div class="inputSearch">
+          <span>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+          <input type="text" placeholder="Pesquise o seu mob preferido">
+          <button onclick="search()">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    
+    <main>
+      <section class="searchResults container" id="searchResults">
+      </section>
+    </main>
+
+    <footer>
+        <p> 2024 - Mobs do Minecraft. Todos os direitos reservados - Atulizado até a versão 1.21 </p>
+        <p> Entre em contato pelo email: mur1lin01@hotmail.com </p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
